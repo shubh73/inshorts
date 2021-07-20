@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import alanBtn from "@alan-ai/alan-sdk-web";
 import NewsCards from "./components/NewsCards/NewsCards";
-import { Button, LinkBox, Spacer, useColorMode, useDisclosure, Wrap, WrapItem, Text, Tag, Icon, TagLabel, Avatar } from "@chakra-ui/react";
+import { Button, LinkBox, Spacer, useColorMode, useDisclosure, Wrap, WrapItem, Tag, Icon, TagLabel } from "@chakra-ui/react";
 import { Stack, Flex, Box, Heading, LinkOverlay } from '@chakra-ui/layout';
 import { Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton} from "@chakra-ui/react"
 import { Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon } from "@chakra-ui/react"
@@ -18,11 +18,6 @@ const App = () => {
 
   // Modal
   const { isOpen, onOpen, onClose} = useDisclosure();
-  const [modalPage, setModalPage] = useState([
-    { title: "Page 1", body: "page 1", pageNo: 1}, 
-    { title: "Page 2", body: "page 2", pageNo: 2 },
-    { title: "Page 3", body: "page 3", pageNo: 3 },
-  ]);
 
   // Theme
   const { colorMode, toggleColorMode } = useColorMode();
