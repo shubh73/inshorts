@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar{
+  border: 7px solid #fff;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb{
+  background: #4FD1C5;
+}
