@@ -4,7 +4,7 @@
 > Provides users with latest news on voice command making it possible to control the entire application on voice. Users can get news by any terms, sources, news channel, or any country eventually saving a lot of time.
 
 <details>
-<summary>Details</summary>
+<summary>Details ℹ</summary>
 <p>
   
 ### :small_blue_diamond: Showcase of dark theme and small talk 🕶 ###
