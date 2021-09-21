@@ -13,6 +13,8 @@
 
 ### ✨ [Live Demo](https://shubh73-inshorts.netlify.app/)
 
+<br/>
+
 Videos ℹ
 
 ### :small_blue_diamond: Showcase of dark theme and small talk 🕶 ###
