@@ -1,7 +1,17 @@
 # inshorts
 
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
+</p>
+
 🎙 A Conversational Voice Controlled React News Application using Alan AI. 
 > Provides users with latest news on voice command making it possible to control the entire application on voice. Users can get news by any terms, sources, news channel, or any country eventually saving a lot of time.
+
+### ✨ [Live Demo](https://shubh73-inshorts.netlify.app/)
 
 Videos ℹ
 
@@ -29,5 +39,11 @@ https://user-images.githubusercontent.com/83606943/126609988-70476882-c250-46df-
 
 https://user-images.githubusercontent.com/83606943/126609671-8e377814-6dce-445c-b028-19720fe44ca2.mp4
 
+## Getting Started 
 
+In the project directory, you can run:
 
+### `yarn start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
