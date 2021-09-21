@@ -15,7 +15,9 @@
 
 <br/>
 
-Videos ℹ
+<details>
+<summary>Videos ℹ</summary>
+<p>
 
 ### :small_blue_diamond: Showcase of dark theme and small talk 🕶 ###
 
@@ -40,6 +42,9 @@ https://user-images.githubusercontent.com/83606943/126609988-70476882-c250-46df-
 ### :small_blue_diamond: Responsive 📱 ###
 
 https://user-images.githubusercontent.com/83606943/126609671-8e377814-6dce-445c-b028-19720fe44ca2.mp4
+  
+</p>
+</details>
 
 ## Getting Started 
 
