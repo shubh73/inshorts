@@ -1,8 +1,52 @@
-# Getting Started with Create React App
+# inshorts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
+</p>
 
-## Available Scripts
+🎙 A Conversational Voice Controlled React News Application using Alan AI. 
+> Provides users with latest news on voice command making it possible to control the entire application on voice. Users can get news by any terms, sources, news channel, or any country eventually saving a lot of time.
+
+### ✨ [Live Demo](https://shubh73-inshorts.netlify.app/)
+
+<br/>
+
+<details>
+<summary>Videos ℹ</summary>
+<p>
+
+### :small_blue_diamond: Showcase of dark theme and small talk 🕶 ###
+
+https://user-images.githubusercontent.com/83606943/126608736-9cf16e93-1bb9-4bb9-9b5c-6814c8954a19.mp4
+
+
+### :small_blue_diamond: What is the application about and fetching news 📰 ###
+
+https://user-images.githubusercontent.com/83606943/126609623-bd4f8721-fd20-4088-b033-08457c4e1109.mp4
+
+
+### :small_blue_diamond: Reading headlines and opening articles using commands 🗞 ###
+
+https://user-images.githubusercontent.com/83606943/126609772-91c87862-55a0-4fc3-ae11-411916cb8570.mp4
+
+
+### :small_blue_diamond: Accessing home and using other commands for news from a specific country 🌍 ###
+
+https://user-images.githubusercontent.com/83606943/126609988-70476882-c250-46df-9b7a-15881fc07222.mp4
+
+
+### :small_blue_diamond: Responsive 📱 ###
+
+https://user-images.githubusercontent.com/83606943/126609671-8e377814-6dce-445c-b028-19720fe44ca2.mp4
+  
+</p>
+</details>
+
+## Getting Started 
 
 In the project directory, you can run:
 
@@ -10,61 +54,3 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
