@@ -11,6 +11,7 @@ import {
   Text,
   LinkBox,
   LinkOverlay,
+  Skeleton,
 } from "@chakra-ui/react";
 import { useColorMode } from "@chakra-ui/color-mode";
 
@@ -22,6 +23,7 @@ const NewsCard = ({
   const { colorMode } = useColorMode();
   const bgColor = { light: "gray.200", dark: "gray.700" };
   const [hover, setHover] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   // To store elements -> for auto scroll
   const [elementRefs, setElementRefs] = useState([]);
@@ -30,6 +32,11 @@ const NewsCard = ({
 
   // Refs for each card - this is called only at the start to set up all references
   useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+
     window.scroll(0, 0);
 
     setElementRefs((refs) =>
@@ -63,14 +70,16 @@ const NewsCard = ({
       >
         <LinkBox>
           <LinkOverlay href={url}>
-            <Image
-              src={
-                urlToImage ||
-                "https://images.unsplash.com/photo-1586339949916-3e9457bef6d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-              }
-              alt="news"
-              h={64}
-            />
+            <Skeleton isLoaded={!loading}>
+              <Image
+                src={
+                  urlToImage ||
+                  "https://images.unsplash.com/photo-1586339949916-3e9457bef6d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                }
+                alt="news"
+                h={64}
+              />
+            </Skeleton>
             <Box pl={5} pr={5} pt={5}>
               <Stack align="baseline" isInline>
                 <Badge
