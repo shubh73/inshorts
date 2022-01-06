@@ -43,8 +43,8 @@ const NewsCards = ({ articles, activeArticle }) => {
             boxShadow="lg"
             bg={bgColor[colorMode]}
           >
-            <Skeleton isLoaded={!loading}>
-              <Image src={Img1} alt="Latest News" />
+            <Skeleton isLoaded={!loading} h={218}>
+              <Image src={Img1} alt="" />
             </Skeleton>
             <Box p={5}>
               <Stack align="baseline" alignItems="center" h={28}>
@@ -98,8 +98,8 @@ const NewsCards = ({ articles, activeArticle }) => {
             boxShadow="lg"
             bg={bgColor[colorMode]}
           >
-            <Skeleton isLoaded={!loading}>
-              <Image src={Img7} alt="News by Categories" />
+            <Skeleton isLoaded={!loading} h={218}>
+              <Image src={Img7} alt="" />
             </Skeleton>
             <Box p={5}>
               <Stack align="baseline" alignItems="center" h={28}>
@@ -152,8 +152,8 @@ const NewsCards = ({ articles, activeArticle }) => {
             boxShadow="lg"
             bg={bgColor[colorMode]}
           >
-            <Skeleton isLoaded={!loading}>
-              <Image src={Img3} alt="News by Terms" />
+            <Skeleton isLoaded={!loading} h={218}>
+              <Image src={Img3} alt="" />
             </Skeleton>
             <Box p={5}>
               <Stack align="baseline" alignItems="center" h={28}>
@@ -205,8 +205,8 @@ const NewsCards = ({ articles, activeArticle }) => {
             boxShadow="lg"
             bg={bgColor[colorMode]}
           >
-            <Skeleton isLoaded={!loading}>
-              <Image src={Img2} alt="News by Sources" />
+            <Skeleton isLoaded={!loading} h={218}>
+              <Image src={Img2} alt="" />
             </Skeleton>
             <Box p={5}>
               <Stack align="baseline" alignItems="center" h={28}>
